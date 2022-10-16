@@ -23,10 +23,10 @@ function App() {
                 <Link to="/">Home</Link>
               </li>
               <li>
-              <Link to="/about">About Us</Link>
+                <Link to="/about">About Us</Link>
               </li>
               <li>
-              <Link to="/packages">Our Packages</Link>
+                <Link to="/packages">Our Packages</Link>
               </li>
             </ul>
           </div>
@@ -35,7 +35,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/packages" element={<Packages packages={packages}/>} />
+              <Route path="/packages" element={<Packages packages={packages} />} />
             </Routes>
           </div>
 
